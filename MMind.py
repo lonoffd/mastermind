@@ -50,5 +50,7 @@ if __name__ == "__main__":
     if pegs[0]==SPACES: gameOver=True
     Round +=1
   if gameOver: print "You Win!"
-  else: print "You Lose!"	
+  else:
+    print "You Lose!"
+    print "The answer was",secret
 
